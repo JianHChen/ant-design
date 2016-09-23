@@ -23,7 +23,7 @@ const data = [
 
 ReactDOM.render(
   <Table columns={columns}
-    expandedRowRender={record => <p>{record.description}</p>}
+    expandedRowRender={record => <p>{record.title}</p>}
     dataSource={data}
     className="table"
   />
